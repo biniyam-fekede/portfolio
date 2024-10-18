@@ -80,7 +80,7 @@ function About() {
         <Tooltip anchorSelect=".my-tooltip-leetcode" place="top">
           Click to see my leetcode profile
         </Tooltip>
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

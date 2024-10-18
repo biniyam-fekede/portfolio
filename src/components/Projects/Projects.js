@@ -4,6 +4,8 @@ import bookBrowsing from "../../Assets/Projects/book-browsing.png";
 import globalWeather from "../../Assets/Projects/global-weather.png";
 import secret from "../../Assets/Projects/my-portfolio.png";
 import stuckinthemud from "../../Assets/Projects/stuckinthemud.png";
+import productivityBotImage from "../../Assets/Projects/productivityBotImage.png";
+import stockWiseImage from "../../Assets/Projects/stockWiseImage.png";
 import ProjectCard from "./ProjectCards";
 
 function Projects() {
@@ -19,6 +21,17 @@ function Projects() {
             Here are a few projects I've worked on recently.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            {/* StockWise Project Card */}
+            <Col md={4} className="project-card" data-aos="fade-up">
+              <ProjectCard
+                imgPath={stockWiseImage}
+                isBlog={false}
+                title="StockWise: AI-Powered Investment Insights"
+                description="Developed StockWise, an AI-powered news aggregator using LLaMA for real-time sentiment analysis, boosting portfolio profitability by 18% through 25+ automated alerts. Led a team of engineers to build StockWise, managing workflows and ensuring project success."
+                //ghLink="https://github.com/your-stockwise-link"
+              />
+            </Col>
+
             <Col md={4} className="project-card" data-aos="fade-up">
               <ProjectCard
                 imgPath={stuckinthemud}
@@ -60,6 +73,17 @@ function Projects() {
                 description="I created a simple yet modern portfolio to showcase my projects and skills. Built with React, CSS, and Bootstrap, the design features a clean layout and intuitive navigation, allowing visitors to explore my work effortlessly. The aesthetic blends vibrant visuals with a user-friendly interface, highlighting my passion for both design and functionality. This project not only reflects my technical abilities but also my commitment to delivering a seamless user experience. Explore my portfolio to see my journey and creativity in action!"
                 // ghLink="https://github.com/fitiha/TodolistApp.git"
                 // demoLink="https://adeysecrets.onrender.com"
+              />
+            </Col>
+
+            {/* Team Productivity Bot Project Card */}
+            <Col md={4} className="project-card" data-aos="fade-right">
+              <ProjectCard
+                imgPath={productivityBotImage}
+                isBlog={false}
+                title="Team Productivity Bot"
+                description="Developed a Python app to query a Discord server and AWS EC2 instance via EC2_metadata API, automating over 20+ routine tasks and reducing manual interventions by 80%."
+                //ghLink="https://github.com/your-productivity-bot-link"
               />
             </Col>
           </Row>
