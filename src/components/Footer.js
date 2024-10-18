@@ -12,11 +12,11 @@ function Footer() {
       <Row style={{ justifyContent: "center", alignItems: "center" }}>
         <Col md="4" className="footer-copywright">
           <h3>
-            Built by <span className="flex-item">Biniyam G/Yohannes.</span>
+            Built by <span className="flex-item">Biniyam GebreYohannes.</span>
           </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year}</h3>
+          <h3>© 2024 Biniyam Gebreyohannes{year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

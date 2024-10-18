@@ -30,8 +30,8 @@ function AboutCard() {
             <br />
             originally from the vibrant city of Addis Ababa. My academic journey
             began at North Seattle College from 2022 to 2024, where I graduated
-            with a commendable GPA of 3.9. Currently, I’m a junior at the Paul
-            G. Allen School of Computer Science at the University of Washington,
+            with a commendable GPA of 3.9. Currently, I’m a junior at Paul G.
+            Allen School of Computer Science at the University of Washington,
             aiming to graduate in June 2026.
           </p>
         </blockquote>

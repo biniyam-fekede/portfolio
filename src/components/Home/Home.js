@@ -14,12 +14,12 @@ function Home() {
         <Container className="home-content">
           <Row className="left-side-home">
             <Col md={8} className="home-header">
-              <h1 className="heading-name">Hi, Biniyam GebreYohannes</h1>
+              <h1 className="heading-name">Biniyam GebreYohannes</h1>
 
               <div className="sectors">
                 <p className="home-description">
                   I’m an aspiring software engineer based in Seattle with
-                  experience in app development, machine learning, and software
+                  experience in Web development, machine learning, and software
                   engineering. I’m driven by a passion for leveraging technology
                   to create meaningful solutions that make a global impact.
                 </p>
@@ -64,7 +64,7 @@ function Home() {
           </Row>
           <Row className="copyright">
             <Col md="12" className="copyright">
-              <p>Copyright © {year}</p>
+              <p> © 2024 Biniyam Gebreyohannes {year}</p>
             </Col>
           </Row>
         </Container>
