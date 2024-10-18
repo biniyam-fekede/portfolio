@@ -58,7 +58,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Row>
+        {/* <Row>
           <h1 className="project-heading" style={{ marginBottom: "40px" }}>
             See My <strong className="purple">Leetcode Challenge</strong>
           </h1>
@@ -76,7 +76,7 @@ function About() {
               className="leetcode"
             />
           </a>
-        </Row>
+        </Row> */}
         <Tooltip anchorSelect=".my-tooltip-leetcode" place="top">
           Click to see my leetcode profile
         </Tooltip>
