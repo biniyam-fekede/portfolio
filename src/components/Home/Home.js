@@ -64,7 +64,7 @@ function Home() {
           </Row>
           <Row className="copyright">
             <Col md="12" className="copyright">
-              <p> © 2024 Biniyam Gebreyohannes {year}</p>
+              <p> © {year} Biniyam Gebreyohannes</p>
             </Col>
           </Row>
         </Container>
