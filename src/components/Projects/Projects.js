@@ -26,7 +26,7 @@ function Projects() {
               <ProjectCard
                 imgPath={stockWiseImage}
                 isBlog={false}
-                title="StockWise: AI-Powered Investment Insights"
+                title="StockWise"
                 description="Developed StockWise, an AI-powered news aggregator using LLaMA for real-time sentiment analysis, boosting portfolio profitability by 18% through 25+ automated alerts. Led a team of engineers to build StockWise, managing workflows and ensuring project success."
                 //ghLink="https://github.com/your-stockwise-link"
               />
