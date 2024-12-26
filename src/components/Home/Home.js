@@ -14,7 +14,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           {/* Add the image here */}
-          <Row className="image-row">
+          {/* <Row className="image-row">
             <Col md="12" className="text-center">
               <img
                 src={ProfileImage}
@@ -28,7 +28,7 @@ function Home() {
                 }}
               />
             </Col>
-          </Row>
+          </Row> */}
 
           <Row className="left-side-home">
             <Col md={8} className="home-header">
