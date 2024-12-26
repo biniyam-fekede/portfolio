@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import ProfileImage from "src/Assets/profile.JPG"; // Replace with the correct file path
+import ProfileImage from "../../Assets/profile.JPG"; // Replace with the correct file path
 
 function Home() {
   let date = new Date();
