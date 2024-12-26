@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import ProfileImage from "src/Assets/profile.JPG"; // Replace with the correct file path
 
 function Home() {
   let date = new Date();
@@ -12,6 +13,23 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
+          {/* Add the image here */}
+          <Row className="image-row">
+            <Col md="12" className="text-center">
+              <img
+                src={ProfileImage}
+                alt="Profile"
+                className="profile-image"
+                style={{
+                  width: "150px",
+                  height: "150px",
+                  borderRadius: "50%",
+                  marginBottom: "20px",
+                }}
+              />
+            </Col>
+          </Row>
+
           <Row className="left-side-home">
             <Col md={8} className="home-header">
               <h1 className="heading-name">Biniyam GebreYohannes</h1>
