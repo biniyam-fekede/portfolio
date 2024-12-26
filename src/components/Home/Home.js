@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import ProfileImage from "../../Assets/profile.JPG"; // Replace with the correct file path
+import ProfileImage from "../../Assets/profile2.jpg";
 
 function Home() {
   let date = new Date();
@@ -21,10 +21,10 @@ function Home() {
                 alt="Profile"
                 className="profile-image"
                 style={{
-                  width: "150px",
-                  height: "150px",
+                  width: "250px",
+                  height: "250px",
                   borderRadius: "50%",
-                  marginBottom: "20px",
+                  marginBottom: "15px",
                 }}
               />
             </Col>
