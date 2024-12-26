@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href="" target="_blank">Biniyam G/Yohannes</a>
+  <a href="" target="_blank">Biniyam GebreYohannes</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./src/Assets/Projects/my-portfolio.png" />
