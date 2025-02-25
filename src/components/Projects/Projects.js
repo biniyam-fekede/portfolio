@@ -6,6 +6,7 @@ import secret from "../../Assets/Projects/my-portfolio.png";
 import stuckinthemud from "../../Assets/Projects/stuckinthemud.png";
 import productivityBotImage from "../../Assets/Projects/productivityBotImage.png";
 import stockWiseImage from "../../Assets/Projects/stockWiseImage.png";
+import signVisionImage from "../../Assets/Projects/signvision.png";
 import ProjectCard from "./ProjectCards";
 
 function Projects() {
@@ -29,6 +30,17 @@ function Projects() {
                 title="StockWise"
                 description="Developed StockWise, an AI-powered news aggregator using LLaMA for real-time sentiment analysis, boosting portfolio profitability by 18% through 25+ automated alerts. Led a team of engineers to build StockWise, managing workflows and ensuring project success."
                 //ghLink="https://github.com/your-stockwise-link"
+              />
+            </Col>
+            {/* SignVision Project Card */}
+            <Col md={4} className="project-card" data-aos="fade-up">
+              <ProjectCard
+                imgPath={signVisionImage}
+                isBlog={false}
+                title="SignVision: AI-Powered ASL Classifier"
+                description="Built SignVision, a real-time AI-powered American Sign Language (ASL) classifier with 92% accuracy. Integrated OpenCV for hand tracking and YOLOv8-based deep learning model for classification. Overcame dataset limitations, motion-based recognition challenges, and improved gesture precision using Optical Flow techniques."
+                // Add GitHub or Demo Link if available
+                demoLink="https://yohannesnigusse.vercel.app/American%20Sign%20Language(ASL)%20Classification%20Presentation%20(1).pdf"
               />
             </Col>
 
