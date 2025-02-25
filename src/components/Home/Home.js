@@ -49,7 +49,7 @@ function Home() {
             </Col>
           </Row>
 
-          {/* Three Info Cards Section - Leveled Image & Text */}
+          {/* Three Info Cards Section - Titles Above Images */}
           <Row
             className="info-section"
             style={{
@@ -60,21 +60,19 @@ function Home() {
           >
             {/* What I'm Building Card */}
             <Col md={4} className="project-card" data-aos="fade-up">
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontSize: "22px",
+                  fontWeight: "bold",
+                  marginBottom: "15px",
+                }}
+              >
+                What I'm Building 💡
+              </h2>
               <ProjectCard
                 imgPath={projectPlaceholder}
                 isBlog={false}
-                title={
-                  <h2
-                    style={{
-                      textAlign: "center",
-                      fontSize: "22px",
-                      fontWeight: "bold",
-                      marginBottom: "15px",
-                    }}
-                  >
-                    What I'm Building 💡
-                  </h2>
-                }
                 description={
                   <p
                     style={{
@@ -102,21 +100,19 @@ function Home() {
 
             {/* What I'm Working On Card */}
             <Col md={4} className="project-card" data-aos="fade-up">
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontSize: "22px",
+                  fontWeight: "bold",
+                  marginBottom: "15px",
+                }}
+              >
+                What I'm Working On 🤖
+              </h2>
               <ProjectCard
                 imgPath={aiResearchImage}
                 isBlog={false}
-                title={
-                  <h2
-                    style={{
-                      textAlign: "center",
-                      fontSize: "22px",
-                      fontWeight: "bold",
-                      marginBottom: "15px",
-                    }}
-                  >
-                    What I'm Working On 🤖
-                  </h2>
-                }
                 description={
                   <p
                     style={{
@@ -129,8 +125,8 @@ function Home() {
                     }}
                   >
                     I'm deep into an "AI research project" that I "can't" really
-                    talk about yet 👀... but it's super interesting! Stay tuned.
-                    I'll share the "research paper" once it's out! 🚀 This
+                    talk about yet 👀... but it's super interesting! Stay
+                    tuned—I'll share the "research paper" once it's out! 🚀 This
                     research involves advanced AI models and analyzing
                     real-world applications. We are pushing the limits of what
                     AI can do and exploring ethical AI implications. The final
@@ -144,21 +140,19 @@ function Home() {
 
             {/* What I'm Into Card - Enhanced Content */}
             <Col md={4} className="project-card" data-aos="fade-up">
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontSize: "22px",
+                  fontWeight: "bold",
+                  marginBottom: "15px",
+                }}
+              >
+                What I'm Into 📚
+              </h2>
               <ProjectCard
                 imgPath={interestsImage}
                 isBlog={false}
-                title={
-                  <h2
-                    style={{
-                      textAlign: "center",
-                      fontSize: "22px",
-                      fontWeight: "bold",
-                      marginBottom: "15px",
-                    }}
-                  >
-                    What I'm Into 📚
-                  </h2>
-                }
                 description={
                   <p
                     style={{
