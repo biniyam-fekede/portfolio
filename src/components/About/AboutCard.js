@@ -6,12 +6,13 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote
-          className="blockquote mb-0 "
+          className="blockquote mb-0"
           style={{
             fontSize: "0.9em",
             justifyContent: "center",
             alignItems: "center",
             textAlign: "center",
+            fontFamily: "Arial",
           }}
         >
           <h1 className="project-heading">
@@ -24,13 +25,10 @@ function AboutCard() {
               color: "#98A2B3",
             }}
           >
-            <span className="flex-item">
-              Greetings! I’m Biniyam Gebreyohannes,
-            </span>{" "}
-            <br />
+            <span className="flex-item">Greetings! I'm Bini,</span> <br />
             originally from the vibrant city of Addis Ababa. My academic journey
             began at North Seattle College from 2022 to 2024, where I graduated
-            with a commendable GPA of 3.9. Currently, I’m a junior at Paul G.
+            with a commendable GPA of 3.9. Currently, I'm a junior at Paul G.
             Allen School of Computer Science at the University of Washington,
             aiming to graduate in June 2026.
           </p>

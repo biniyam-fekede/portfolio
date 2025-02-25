@@ -10,7 +10,7 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" style={{ fontFamily: "Arial" }}>
       <Container>
         <Row style={{ justifyContent: "center", textAlign: "center" }}>
           <Col

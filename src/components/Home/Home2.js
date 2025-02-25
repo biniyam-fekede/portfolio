@@ -81,6 +81,7 @@ function Home2() {
         </Row>
       </Container>
       <ContactMe />
+      <footer style={{ fontFamily: "Arial" }}>{/* Footer content */}</footer>
     </Container>
   );
 }

@@ -6,7 +6,7 @@ import { GoDotFill } from "react-icons/go";
 
 export const Experience = () => {
   return (
-    <Container className="experience-section">
+    <Container className="experience-section" style={{ fontFamily: "Arial" }}>
       <Row>
         <Col md="6">
           <Card className="quote-card-view">

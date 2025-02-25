@@ -26,6 +26,7 @@ function NavBar() {
         expand="md"
         height="50"
         className={navColour ? "sticky" : "navbar"}
+        style={{ fontFamily: "Arial" }}
       >
         <Container>
           <Navbar.Brand className="d-flex">
@@ -34,7 +35,7 @@ function NavBar() {
               className="logo-text"
               style={{ textDecoration: "none" }}
             >
-              Biniyam
+              Bini
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle
