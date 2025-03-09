@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import ProjectCard from "../Projects/ProjectCards";
 
 // Updated Images for Balanced Layout
-import projectPlaceholder from "../../Assets/Dr. AI Assistant.png";
+import projectPlaceholder from "../../Assets/Dr.AI_Assistant.png";
 import aiResearchImage from "../../Assets/UE_LAB.png";
 import interestsImage from "../../Assets/I_am_reading.png";
 
