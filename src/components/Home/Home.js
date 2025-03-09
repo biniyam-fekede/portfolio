@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import ProjectCard from "../Projects/ProjectCards";
 
 // Updated Images for Balanced Layout
-import projectPlaceholder from "../../Assets/RegretApp.png";
+import projectPlaceholder from "../../Assets/Dr. AI Assistant.png";
 import aiResearchImage from "../../Assets/UE_LAB.png";
 import interestsImage from "../../Assets/I_am_reading.png";
 
@@ -59,7 +59,7 @@ function Home() {
             }}
           >
             {/* What I'm Building Card */}
-            <Col md={4} className="project-card" data-aos="fade-up">
+            {/* <Col md={4} className="project-card" data-aos="fade-up">
               <h2
                 style={{
                   textAlign: "center",
@@ -96,8 +96,45 @@ function Home() {
                   </p>
                 }
               />
-            </Col>
+            </Col> */}
 
+            <Col md={4} className="project-card" data-aos="fade-up">
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontSize: "22px",
+                  fontWeight: "bold",
+                  marginBottom: "15px",
+                }}
+              >
+                What I'm Building 💡
+              </h2>
+              <ProjectCard
+                imgPath={projectPlaceholder}
+                isBlog={false}
+                description={
+                  <p
+                    style={{
+                      textAlign: "center",
+                      fontSize: "16px",
+                      fontFamily: "Arial",
+                      fontWeight: "normal",
+                      color: "#ffffff",
+                      lineHeight: "1.8",
+                    }}
+                  >
+                    Dr.AI Assistant is a state-of-the-art model fine-tuned to
+                    support health professionals in Ethiopia. It assists in
+                    diagnosing patients in areas where fully trained doctors are
+                    scarce, with the goal of reducing the patient-to-doctor
+                    ratio from roughly 1:9,000 to 1:1,000 as recommended by WHO.
+                    This tool leverages advanced AI to provide reliable
+                    insights, aiming to bridge critical gaps in healthcare
+                    accessibility.
+                  </p>
+                }
+              />
+            </Col>
             {/* What I'm Working On Card */}
             <Col md={4} className="project-card" data-aos="fade-up">
               <h2
